@@ -1,0 +1,53 @@
+body{background-image:url(fundo.jpg);
+background-size:100%;}
+
+.heart{
+	margin: 200px;
+	background-color: red;
+	height: 200px;
+	transform: rotate(-45deg);
+	width: 200px;
+	position: relative;
+  bottom: 0;
+  right: 0;
+  left: 550px;
+  top: 55px;
+  margin: 100px;
+
+}
+
+.heart:before,
+.heart:after {
+	content: "";
+	background-color: red;
+	border-radius: 50%;
+	height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+.heart:before{
+	top: -100px;
+}
+
+.heart:after{
+	left: 100px;
+}
+
+.música{
+	width: 350px;
+	margin: 0 auto;
+}
+
+.música li {
+	display: inline-block;
+	text-align: center;
+	background:   #CCCCCC;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: #000000 ;
+	border-width: 5px;
+	border-style: solid;
+
+}
